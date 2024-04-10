@@ -48,13 +48,15 @@ export function Author() {
               sustainable future.
             </p>
             <p className="mt-8">
-              <Link
-                href="#"
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://twitter.com/sangitapmallik?lang=en"
                 className="inline-flex items-center text-base font-medium tracking-tight text-slate-900"
               >
                 <XIcon className="h-10 w-10 fill-current" />
                 <span className="ml-4">Follow on X</span>
-              </Link>
+              </a>
             </p>
           </div>
         </div>

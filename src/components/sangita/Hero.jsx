@@ -43,7 +43,7 @@ export function Hero() {
             <Image
               width={192}
               height={192}
-              className="h-24 w-24 rounded-full ring-4 ring-white sm:h-48 sm:w-48"
+              className="h-48 w-48 rounded-full ring-4 ring-white sm:h-48 sm:w-48"
               src={profile.avatar}
               alt=""
             />
