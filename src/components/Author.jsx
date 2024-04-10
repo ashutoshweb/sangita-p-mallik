@@ -30,7 +30,7 @@ export function Author() {
               className="absolute inset-0 h-full w-full object-cover"
               src={authorImage}
               alt=""
-              sizes="(min-width: 1024px) 18rem, (min-width: 768px) 16rem, 11rem"
+              sizes="(max-width: 100px) 18rem, (max-width: 100px) 16rem, 11rem"
             />
           </div>
           <div className="px-4 py-10 sm:px-10 sm:py-16 md:py-20 lg:px-20 lg:py-32">

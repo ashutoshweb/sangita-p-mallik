@@ -6,7 +6,6 @@ import { SectionHeading } from '@/components/SectionHeading'
 //import authorImage from '@/images/avatars/author.png'
 import authorImage from '@/images/sangita/sangitamallik-linkedin-pic.jpeg'
 
-
 function XIcon(props) {
   return (
     <svg aria-hidden="true" viewBox="0 0 24 24" {...props}>
@@ -27,7 +26,7 @@ export function Author() {
       </div>
       <div className="relative mx-auto max-w-5xl pt-16 sm:px-6">
         <div className="bg-slate-50 pt-px sm:rounded-6xl">
-          <div className="relative mx-auto -mt-16 h-44 w-44 overflow-hidden rounded-full bg-slate-200 md:float-right md:h-64 md:w-64 md:[shape-outside:circle(40%)] lg:mr-20 lg:h-72 lg:w-72">
+          <div className="relative mx-auto -mt-16 h-44 w-44 overflow-hidden rounded-full bg-slate-200 md:float-right md:h-56 md:w-56 md:[shape-outside:circle(40%)] lg:mr-20 lg:h-56 lg:w-56">
             <Image
               className="absolute inset-0 h-full w-full object-cover"
               src={authorImage}
@@ -36,24 +35,28 @@ export function Author() {
             />
           </div>
           <div className="px-4 py-10 sm:px-10 sm:py-16 md:py-20 lg:px-20 lg:py-32">
-
             <p className="mt-8 font-display text-5xl font-extrabold tracking-tight text-slate-900 sm:text-6xl">
-              <span className="block text-blue-600">Sangita P. Mallik –</span> ‘A Beacon of Resilience, Sustainability, and Leadership’.
+              <span className="block text-blue-600">Sangita P. Mallik –</span>{' '}
+              ‘A Beacon of Resilience, Sustainability, and Leadership’.
             </p>
             <p className="mt-4 text-lg tracking-tight text-slate-700">
-              Looking ahead, Sangita envisions a world where energy systems are not only efficient
-              and reliable but also inherently sustainable and resilient.
-              Her ongoing efforts to develop a future-ready workforce, coupled with her
-              advocacy for a balanced approach to energy production and consumption, reflect her commitment to a sustainable future.
+              Looking ahead, Sangita envisions a world where energy systems are
+              not only efficient and reliable but also inherently sustainable
+              and resilient. Her ongoing efforts to develop a future-ready
+              workforce, coupled with her advocacy for a balanced approach to
+              energy production and consumption, reflect her commitment to a
+              sustainable future.
             </p>
             <p className="mt-8">
-              <Link
-                href="#"
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://twitter.com/sangitapmallik?lang=en"
                 className="inline-flex items-center text-base font-medium tracking-tight text-slate-900"
               >
                 <XIcon className="h-10 w-10 fill-current" />
                 <span className="ml-4">Follow on X</span>
-              </Link>
+              </a>
             </p>
           </div>
         </div>
